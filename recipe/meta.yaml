@@ -1,5 +1,5 @@
 {% set name = "brainreg" %}
-{% set version = "1.0.16" %}
+{% set version = "1.0.17" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/brainreg-{{ version }}.tar.gz
-  sha256: adce55477f79aaa3646970f9a3169063c524e4593c1877a94301a7c9b22a1037
+  sha256: 319e980334994a8c035d84a5785fc3dfe9f3390f7aa4af411966cf3ef57af636
 
 build:
   entry_points:
